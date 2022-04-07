@@ -30,7 +30,8 @@
     "babel.config.js",
     ".eslintrc.js",
     "src/**/*.ts",
-    "test/**/*.ts"
+    "test/**/*.ts",
+    "example/**/*.ts"
   ],
   "exclude": [
     "node_modules"
