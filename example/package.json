@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "example",
+  "version": "1.0.0",
+  "dependencies": {},
+  "scripts": {
+    "docs": "typedoc"
+  },
+  "devDependencies": {
+    "typedoc": "^0.22.13"
+  }
+}
