@@ -17,9 +17,9 @@
     "url": "https://github.com/ink-feather-org/typedoc-plugin-asciidoctor"
   },
   "name": "@ink-feather-org/typedoc-plugin-asciidoctor",
-  "version": "1.0.0",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "version": "1.0.1",
+  "main": "dist/src/index.js",
+  "module": "dist/src/index.js",
   "sideEffects": false,
   "types": "dist/src/index.d.ts",
   "keywords": [
