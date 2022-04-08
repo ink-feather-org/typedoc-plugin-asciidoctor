@@ -1,7 +1,7 @@
 {
   "private": false,
   "author": "raldone01",
-  "description": "Adds support for README.adoc files in typedoc.",
+  "description": "Adds README.adoc support to typedoc.",
   "homepage": "feather.ink",
   "license": "GPL-3.0-or-later",
   "publishConfig": [
