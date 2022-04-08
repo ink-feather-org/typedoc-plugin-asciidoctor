@@ -1,8 +1,7 @@
 import { Application, Converter, Context } from 'typedoc'
 import { getFileExtension } from '@ink-feather-org/ts-utils'
 import adoc from '@asciidoctor/core'
-// @ts-ignore
-import AsciidoctorShiki from 'asciidoctor-shiki'
+import { AsciidoctorShiki } from '@ink-feather-org/asciidoctor-shiki'
 
 const doctor = adoc()
 doctor.SyntaxHighlighter.register('shiki', AsciidoctorShiki)
