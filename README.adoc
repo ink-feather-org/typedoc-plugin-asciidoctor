@@ -12,7 +12,14 @@ To use this plugin specify the `readme` option for typedoc.
     "entryPoints": ["src/index.ts"],
     "out": "docs",
     "readme": "README.adoc",
-    "excludePrivate": true
+    "excludePrivate": true,
+    "plugin": [ "@ink-feather-org/typedoc-plugin-asciidoctor" ]
   }
 }
 ----
+
+== Known issues
+
+Typedoc runs the output of asciidoc through a markdown renderer.
+Unfortunately there is nothing a plugin can do about that.
+This sometimes causes rendering issues.

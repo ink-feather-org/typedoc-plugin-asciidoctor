@@ -17,7 +17,7 @@
     "url": "https://github.com/ink-feather-org/typedoc-plugin-asciidoctor"
   },
   "name": "@ink-feather-org/typedoc-plugin-asciidoctor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/src/index.js",
   "module": "dist/src/index.js",
   "sideEffects": false,
@@ -25,7 +25,9 @@
   "keywords": [
     "typedoc",
     "asciidoctor",
-    "adoc"
+    "adoc",
+    "typedoc-plugin",
+    "typedocplugin"
   ],
   "scripts": {
     "prepublishOnly": "pnpm run lint && pnpm run build && pnpm run docs && npm-multi-publish",

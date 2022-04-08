@@ -11,7 +11,8 @@ To use this plugin specify the `readme` option for typedoc.
     "entryPoints": ["src/index.ts"],
     "out": "docs",
     "readme": "README.adoc",
-    "excludePrivate": true
+    "excludePrivate": true,
+    "plugin": [ "@ink-feather-org/typedoc-plugin-asciidoctor" ]
   }
 }
 ```
