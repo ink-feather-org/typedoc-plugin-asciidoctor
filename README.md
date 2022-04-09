@@ -18,4 +18,4 @@ To use this plugin specify the `readme` option for typedoc.
 ```
 
 npmjs.com does not support .adoc readme files.
-For the full readme see [the git repository](https://github.com/ink-feather-org/ts-utils).
+For the full readme see [the git repository](https://github.com/ink-feather-org/typedoc-plugin-asciidoctor).
