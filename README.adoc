@@ -47,4 +47,4 @@ Steps:
 Only try to integrate my plugin into your project after you have verified that the example works.
 
 == Contributing
-I will gladly accept any pull request that adds ascii-doc output functionality (https://github.com/ink-feather-org/typedoc-plugin-asciidoctor/issues/1[Issue]).
+Pull request that add ascii-doc output functionality are welcome (https://github.com/ink-feather-org/typedoc-plugin-asciidoctor/issues/1[Issue]).
