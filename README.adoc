@@ -23,3 +23,28 @@ To use this plugin specify the `readme` option for typedoc.
 Typedoc runs the output of asciidoc through a markdown renderer.
 Unfortunately there is nothing a plugin can do about that.
 This sometimes causes rendering issues.
+
+== What this plugin does:
+Take a 'README.adoc' and render it to 'html' before sending it off to typedoc which then passes it to the output generator.
+
+== What this plugin does NOT do:
+Add support for typedoc to generate '.adoc' output.
+
+== In other words
+
+This plugin does NOT enable you to use ascii-doc in the javadoc comments ONLY in the README.
+It also does NOT generate '.adoc' output. It only integrates an existing 'README.adoc' into the typedoc output.
+
+== Try the example
+Steps:
+
+. Clone the repo
+. cd into example
+. pnpm i
+. pnpm run docs
+. Verify that the typedoc generated correctly
+
+Only try to integrate my plugin into your project after you have verified that the example works.
+
+== Contributing
+I will gladly accept any pull request that adds ascii-doc output functionality (https://github.com/ink-feather-org/typedoc-plugin-asciidoctor/issues/1[Issue]).

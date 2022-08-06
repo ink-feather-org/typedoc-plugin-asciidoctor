@@ -1,6 +1,6 @@
 # @ink-feather-org/typedoc-plugin-asciidoctor
 
-This plugin adds README.adoc support to typedoc.
+This plugin adds `README.adoc` support to typedoc.
 To use this plugin specify the `readme` option for typedoc.
 
 # tsconfig.json
